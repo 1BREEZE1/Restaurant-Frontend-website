@@ -1,0 +1,44 @@
+.checked {  
+    color : rgb(250, 193, 6);  
+    font-size : 20px;  
+}  
+.unchecked {  
+    font-size : 20px; 
+    color: white; 
+} 
+
+.dishes .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(28rem, 1fr));
+    gap:1.5rem;
+}
+.dishes .box-container .box{
+    padding: 2.5rem;
+    background: rgb(0, 0, 0);
+    border-radius: .5rem;
+    border:.1rem solid rgba(0, 0, 0, .2);
+    box-shadow: var(--box-shadow);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.dishes .box-container .box img{
+    height: 17rem;
+    margin: 1rem 0;
+}
+.dishes .box-container .box h3{
+    text-transform: capitalize;
+    color:white
+}
+.dishes .box-container .box span{
+    color:white
+}
+.dishes .box-container .box a{
+    color:white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.dishes .box-container .box a:hover{
+    color:rgb(239, 45, 45);
+    text-decoration: none;
+}

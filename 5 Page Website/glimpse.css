@@ -1,0 +1,15 @@
+.s1{
+    height: 33rem;
+    width: 33rem;
+    border-radius: 5rem;
+    
+}
+.container .row .s2{
+    height: 37rem;
+    width: 37rem;
+    background-color: black;
+    border-radius: 4rem ;
+    position:relative;
+    overflow: hidden;
+}
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Home Delivery
+        </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="styles.css"/>  
+        <link rel="stylesheet" href="order.css"/> 
+    </head>
+    <body>
+                
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                  </button>
+                <div class="site-logo">
+                    <img src="fkmly9ug4dpzh4owm3tq.webp" class="img img-responsive">
+                </div>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="home.html">Home</a></li>
+                  <li><a href="menu.html">Menu</a></li>
+                    <li><a href="glimpse.html">Glimpse</a></li>
+                    <li class="active"><a href="order.html">Home delivery</a></li>
+                    <li><a href="review.html">Review/Contact</a></li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <br><br><br><br><br><br>
+        <section class="order" id="order">
+            <h3 class="sub-heading">order now</h3>
+            <h1 class="heading"> free and fast</h1>
+            <form action="">
+
+                <div class="inputBox">
+                    <div class="input">
+                        <span>Name</span>
+                        <input type="text" placeholder="Enter Your Name ">
+                    </div>
+                    <div class="input">
+                        <span>Number</span>
+                        <input type="number" placeholder="Enter Your Number ">
+                    </div>
+                </div>
+                <div class="inputBox">
+                    <div class="input">
+                        <span>Order</span>
+                        <input type="text" placeholder="Enter food Name">
+                    </div>
+                    <div class="input">
+                        <span>Quantity</span>
+                        <input type="number" placeholder="Food Quantity">
+                    </div>
+                </div>
+                <div class="inputBox">
+                    <div class="input">
+                        <span>Time</span>
+                        <input type="time">
+                    </div>
+                    <div class="input">
+                        <span>Date </span>
+                        <input type="date">
+                    </div>
+                </div>
+                <div class="inputBox">
+                    <div class="input">
+                        <span>Address</span>
+                        <textarea placeholder="Enter Your Address" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="input">
+                        <span>Message</span>
+                        <textarea placeholder="Enter Your Message" id="" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+
+                <input type="submit" value="Order Now" class="btn">
+
+            </form>
+        </section>
+    </body>
+</html>
